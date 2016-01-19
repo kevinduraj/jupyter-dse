@@ -13,6 +13,6 @@ pip install --upgrade "ipython[all]"
 ###Location: DSE Kernels
 * /root/.local/share/jupyter/kernels
 
-###Examples:
-[https://academy.datastax.com/courses/getting-started-apache-spark](https://academy.datastax.com/courses/getting-started-apache-spark)
+###Spark Examples:
+[DS320: DataStax Enterprise Analytics with Apache Spark](https://academy.datastax.com/courses/getting-started-apache-spark)
 
