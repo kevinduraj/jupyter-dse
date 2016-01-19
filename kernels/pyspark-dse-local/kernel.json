@@ -1,0 +1,8 @@
+{
+ "display_name": "Pyspark DSE Local",
+ "env": { "MASTER":"local",
+          "PYTHONPATH" : "/usr/share/dse/spark/python/lib/py4j-0.8.2.1-src.zip:/usr/share/dse/spark/python",
+          "PYTHONSTARTUP":"/usr/share/dse/spark/python/pyspark/shell.py"},
+ "argv": ["python", "-m", "IPython.kernel", "-f", "{connection_file}"],
+ "language": "python"
+}

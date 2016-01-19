@@ -1,0 +1,15 @@
+{
+    "display_name": "Spark-DSE Local",
+    "language": "scala",
+    "argv": [
+        "dse",
+        "spark-submit",
+        "--master",
+        "local[*]",
+        "/root/kernel-0.1.4.4-cassandra/lib/kernel-assembly-0.1.4.4-cassandra.jar",
+        "com.ibm.spark.SparkKernel",
+        "--profile",
+        "{connection_file}"
+     ],
+     "codemirror_mode": "scala"
+}
