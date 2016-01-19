@@ -1,6 +1,12 @@
 Jupyter Notebook with DSE
 =========================
 
+### Install Jupyter
+```
+pip install -U jupyter
+pip install --upgrade "ipython[all]"
+```
+
 ###Location: Root Directory
 * /root/kernel-0.1.4.4-cassandra
 
