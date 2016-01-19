@@ -1,9 +1,9 @@
 Jupyter Notebook with DSE
 =========================
 
-###Root Directory
+###Location: Root Directory
 * /root/kernel-0.1.4.4-cassandra
 
-### DSE Kernels
+###Location: DSE Kernels
 * /root/.local/share/jupyter/kernels
 
