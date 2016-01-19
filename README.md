@@ -9,6 +9,7 @@ pip install --upgrade "ipython[all]"
 
 ###Location: Root Directory
 * /root/kernel-0.1.4.4-cassandra
+* [DSE Spark Kernels for Scala and Python](https://github.com/slowenthal/spark-kernel)
 
 ###Location: DSE Kernels
 * /root/.local/share/jupyter/kernels
