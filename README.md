@@ -26,6 +26,8 @@ pip install --upgrade "ipython[all]"
   * conda create -n py3k anaconda python=3
   * conda install -c r ipython-notebook r-irkernel
   * conda create -n myenv python
+  * conda install -c r r-essentials
+    * conda create -n my-r-env -c r r-essentials
 
 * ipython notebook
 
