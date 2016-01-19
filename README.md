@@ -24,7 +24,12 @@ pip install --upgrade "ipython[all]"
 * R
 
 ###Run R Shell (R)
+* http://conda.pydata.org/miniconda.html
+* conda install -c r ipython-notebook r-irkernel
+* ipython notebook
 
+
+####Other Instalations
 * install.packages("devtools")
 * install.packages('RCurl')
 * library(devtools)
@@ -32,7 +37,6 @@ pip install --upgrade "ipython[all]"
 * install_github("takluyver/IRdisplay")
 * install_github("takluyver/IRkernel")
 * IRkernel::installspec()
-
 
 ```
 install.packages(c('rzmq','repr','IRkernel','IRdisplay'), repos = c('http://irkernel.github.io/', getOption('repos'))) 
