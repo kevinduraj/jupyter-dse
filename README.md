@@ -21,6 +21,9 @@ pip install --upgrade "ipython[all]"
 ###Install R Kernel for Jupyter
 * yum install r
 * http://conda.pydata.org/miniconda.html
-* conda install -c r ipython-notebook r-irkernel
+  * conda install numpy
+  * conda create -n py3k anaconda python=3
+  * conda install -c r ipython-notebook r-irkernel
 * ipython notebook
+
 [http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html)
