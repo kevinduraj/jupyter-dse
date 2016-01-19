@@ -18,3 +18,13 @@ pip install --upgrade "ipython[all]"
 ###Spark Examples:
 [DS320: DataStax Enterprise Analytics with Apache Spark](https://academy.datastax.com/courses/getting-started-apache-spark)
 
+###Install R Engine
+
+* yum install r
+* R
+
+####Get into an R shel
+```
+install.packages(c('rzmq','repr','IRkernel','IRdisplay'), repos = c('http://irkernel.github.io/', getOption('repos'))) 
+IRkernel::installspec()
+```
