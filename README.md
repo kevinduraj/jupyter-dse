@@ -23,4 +23,4 @@ pip install --upgrade "ipython[all]"
 * http://conda.pydata.org/miniconda.html
 * conda install -c r ipython-notebook r-irkernel
 * ipython notebook
-
+[http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html)
