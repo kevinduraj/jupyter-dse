@@ -23,7 +23,17 @@ pip install --upgrade "ipython[all]"
 * yum install r
 * R
 
-####Get into an R shel
+###Run R Shell (R)
+
+* install.packages("devtools")
+* install.packages('RCurl')
+* library(devtools)
+* install_github('armstrtw/rzmq')
+* install_github("takluyver/IRdisplay")
+* install_github("takluyver/IRkernel")
+* IRkernel::installspec()
+
+
 ```
 install.packages(c('rzmq','repr','IRkernel','IRdisplay'), repos = c('http://irkernel.github.io/', getOption('repos'))) 
 IRkernel::installspec()
