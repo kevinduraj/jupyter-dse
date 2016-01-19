@@ -18,27 +18,9 @@ pip install --upgrade "ipython[all]"
 ###Spark Examples:
 [DS320: DataStax Enterprise Analytics with Apache Spark](https://academy.datastax.com/courses/getting-started-apache-spark)
 
-###Install R Engine
-
+###Install R Kernel for Jupyter
 * yum install r
-* R
-
-###Run R Shell (R)
 * http://conda.pydata.org/miniconda.html
 * conda install -c r ipython-notebook r-irkernel
 * ipython notebook
 
-
-####Other Instalations
-* install.packages("devtools")
-* install.packages('RCurl')
-* library(devtools)
-* install_github('armstrtw/rzmq')
-* install_github("takluyver/IRdisplay")
-* install_github("takluyver/IRkernel")
-* IRkernel::installspec()
-
-```
-install.packages(c('rzmq','repr','IRkernel','IRdisplay'), repos = c('http://irkernel.github.io/', getOption('repos'))) 
-IRkernel::installspec()
-```
