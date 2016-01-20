@@ -33,6 +33,6 @@ pip install --upgrade "ipython[all]"
 
 ### References:
 
-[http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html)
-[https://www.continuum.io/blog/developer/jupyter-and-conda-r](https://www.continuum.io/blog/developer/jupyter-and-conda-r)
+* [http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html)
+* [https://www.continuum.io/blog/developer/jupyter-and-conda-r](https://www.continuum.io/blog/developer/jupyter-and-conda-r)
 
