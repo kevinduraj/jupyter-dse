@@ -15,6 +15,9 @@ pip install --upgrade "ipython[all]"
 ###Location: DSE Kernels
 * /root/.local/share/jupyter/kernels
 
+### Jupyter Config
+* vi /root/.jupyter/jupyter_notebook_config.py
+
 ###Spark Examples:
 [DS320: DataStax Enterprise Analytics with Apache Spark](https://academy.datastax.com/courses/getting-started-apache-spark)
 
@@ -35,4 +38,14 @@ pip install --upgrade "ipython[all]"
 
 * [http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html](http://blog.revolutionanalytics.com/2015/09/using-r-with-jupyter-notebooks.html)
 * [https://www.continuum.io/blog/developer/jupyter-and-conda-r](https://www.continuum.io/blog/developer/jupyter-and-conda-r)
+
+
+### IPython Kernels for Other Languages
+
+[https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages](https://github.com/ipython/ipython/wiki/IPython-kernels-for-other-languages)
+```
+sudo add-apt-repository ppa:chronitis/jupyter
+sudo apt update
+sudo apt install <kernelname>
+```
 
